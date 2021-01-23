@@ -1,1 +1,23 @@
-#nav.nav{background-color:lightblue;}
+/* I choice this css specifity because it's going to be looking for an #id that has the same element */
+#nav.nav
+{background-color:darkblue;
+}
+/* I choice this css specifity because it's going to be looking for an #id that has the same element */
+#home.home
+{background-color:cyan;
+}
+/* I choice this css specifity because it's going to be looking for an #id that has the same element */
+#main.main
+{background-color:cyan;
+}
+/* I choice this css specifity because it's going to be looking for an #id that has the same element */
+#about.about{
+    background-color:rgb(13, 52, 223);
+}
+/* I choice this form of css specifity because it's looking for an element with an id of contact as it's parent and element */
+#contact .contact-form{
+    background-color:rgb(170, 170, 170);
+}
+#nav .nav-link{
+    color:white;
+}
