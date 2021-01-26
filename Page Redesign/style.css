@@ -1,7 +1,10 @@
 /* I choice this css specifity because it's going to be looking for an #id that has the same element */
 #nav.nav
 {background-color:darkblue;
-  width:1140px;
+  width:auto;
+  max-width: 1200px;
+  padding:0px;
+  height: 60px;
 }
 /* I choice this css specifity because it's going to be looking for an #id that has the same element */
 #home.home
@@ -67,4 +70,20 @@ input[type=text] {
 #contact p{
   font-size:25px;
   font-family:Arial, Helvetica, sans-serif;
+}
+/* making adjusent with the footer, making it to be aligned with the main container and suitable for mobile point of view */
+footer{
+  background-color:darkblue;
+  max-width: 1200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+#contact .contact-form{
+  width: auto;
+  background-color:grey;
+  max-width: 600px;
+}
+footer p{
+  margin-top:0;
 }
