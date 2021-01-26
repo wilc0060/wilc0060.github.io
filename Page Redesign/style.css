@@ -1,6 +1,7 @@
 /* I choice this css specifity because it's going to be looking for an #id that has the same element */
 #nav.nav
 {background-color:darkblue;
+  width:1140px;
 }
 /* I choice this css specifity because it's going to be looking for an #id that has the same element */
 #home.home
@@ -20,4 +21,50 @@
 }
 #nav .nav-link{
     color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* adding width to the form */
+input[type=text] {
+    width:95%;
+    padding: 8px 10px;
+    margin:10px;
+    box-sizing: border-box;
+  }
+  input[type=Email] {
+    width:95%;
+    padding:8px 10px;
+    margin:10px;
+    box-sizing: border-box;
+  }
+  textarea[name=Yourmessage]{
+    width: 500%;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  button{
+    border: 1px solid black;
+    font-size: 16px;
+    margin: 10px;
+  }
+  .border{
+    border: 1px solid black;
+    margin: 50px;
+  }
+#contact p{
+  font-size:25px;
+  font-family:Arial, Helvetica, sans-serif;
 }
