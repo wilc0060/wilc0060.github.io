@@ -4,7 +4,7 @@
   width:auto;
   max-width: 1200px;
   padding:0px;
-  height: 60px;
+  height:100px;
 }
 /* I choice this css specifity because it's going to be looking for an #id that has the same element */
 #home.home
@@ -16,7 +16,7 @@
 }
 /* I choice this css specifity because it's going to be looking for an #id that has the same element */
 #about.about{
-    background-color:rgb(13, 52, 223);
+    background-color:darkblue;
 }
 /* I choice this form of css specifity because it's looking for an element with an id of contact as it's parent and element */
 #contact .contact-form{
@@ -52,7 +52,7 @@ input[type=text] {
     box-sizing: border-box;
   }
   textarea[name=Yourmessage]{
-    width: 500%;
+    width: 100px;
     height: 100px;
     padding: 50px;
     margin: 20px;
@@ -67,10 +67,6 @@ input[type=text] {
     border: 1px solid black;
     margin: 50px;
   }
-#contact p{
-  font-size:25px;
-  font-family:Arial, Helvetica, sans-serif;
-}
 /* making adjusent with the footer, making it to be aligned with the main container and suitable for mobile point of view */
 footer{
   background-color:darkblue;
@@ -79,11 +75,16 @@ footer{
   text-align: center;
   margin: 0 auto;
 }
+footer p{
+  margin-top:0;
+  color:white;
+}
 #contact .contact-form{
   width: auto;
   background-color:grey;
   max-width: 600px;
 }
-footer p{
-  margin-top:0;
+#contact p{
+  font-size:25px;
+  font-family:Arial, Helvetica, sans-serif;
 }
