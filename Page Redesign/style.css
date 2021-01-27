@@ -4,7 +4,7 @@
   width:auto;
   max-width: 1200px;
   padding:0px;
-  height:100px;
+  height: 75px;
 }
 /* I choice this css specifity because it's going to be looking for an #id that has the same element */
 #home.home
