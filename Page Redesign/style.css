@@ -75,6 +75,7 @@ footer{
   text-align: center;
   margin: 0 auto;
 }
+/* removing the white space between the main container and the footer  */
 footer p{
   margin-top:0;
   color:white;
