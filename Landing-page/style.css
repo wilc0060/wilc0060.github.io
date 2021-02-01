@@ -1,7 +1,18 @@
 h1 {
-    font-size: 90px;
+    font-size: 80px;
+}
+
+footer {
+    background-color: #fffd8c;
+    max-width: 1200px;
+    text-align:left;
+    margin: 0 auto;
 }
 
 .logo-image {
-    width: 60px;
+    width: 100px;
+}
+
+.container {
+    background-color: #f7f7ff;
 }
