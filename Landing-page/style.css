@@ -2,11 +2,87 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+.calc {
+    background-color: #ff8480;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: monospace;
+    border: none;
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f7f7ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=email] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+inptu[ id=phone] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f7f7ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[id=Hours] {
+    width:150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #f7f7ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[id=City] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f7f7ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.drive {
+    background-color: #57eeab;
+    color: black;
+    border-radius: 4px;
+    font-size: 40px;
+    padding: 3px 12px;
+    font-family: initial;
+    border: none;
+    width: 0 auto;
+}
+
 footer {
     background-color: #fffd8c;
     max-width: auto;
-    text-align:left;
-    margin:0 auto;
+    text-align: left;
+    margin: 0 auto;
     padding: 0px;
 }
 
