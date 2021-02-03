@@ -84,7 +84,8 @@ input[id=City] {
     border-radius: 8px;
     font-size: 40px;
     padding: 3px 12px;
-    font-family: initial;
+    font-family: 'Montserrat', sans-serif;
+    ;
     border: none;
     width: 100%;
 }
