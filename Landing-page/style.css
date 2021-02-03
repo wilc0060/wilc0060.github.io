@@ -1,7 +1,73 @@
+ /* For Mobile */
+@media only screen and (max-width: 768px) {
+    .logo-image {
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 60px;
+        color: #333133;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #333133;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 32px;
+        font-family: monospace;
+        color: #333133;
+        text-align: center;
+    }
+
+    .apply-form {
+        width: 520px;
+        background-color: white;
+        border: 5px solid white;
+        box-shadow: 10px 8px 10px grey;
+        border-radius: 18px;
+    }
+
+    footer {
+        background-color: #fffd8c;
+        width: auto;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .socialmedia-icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #terms {
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+
+    }
+
+}
+
 h1 {
-    font-size: 80px;
+    font-size: 120px;
     color: #333133;
     font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 25px;
 }
 
 h2 {
@@ -10,7 +76,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 32px;
     font-family: monospace;
     color: #333133;
 }
@@ -18,16 +84,16 @@ h3 {
 .calc {
     background-color: #ff8480;
     color: white;
-    padding: 2px 10px;
-    border-radius: 4px;
-    font-size: 20px;
-    font-family: monospace;
+    border-radius: 8px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
     border: none;
-    width: 100px;
+    width: 250px;
+    height: 60px;
 }
 
 input[type=text] {
-    width: 100%;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -38,7 +104,7 @@ input[type=text] {
 }
 
 input[type=email] {
-    width: 100%;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -49,7 +115,7 @@ input[type=email] {
 }
 
 #phone {
-    width: 100%;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -80,12 +146,10 @@ input[id=City] {
 
 .drive {
     background-color: #57eeab;
-    color: black;
     border-radius: 8px;
     font-size: 40px;
     padding: 3px 12px;
     font-family: 'Montserrat', sans-serif;
-    ;
     border: none;
     width: 100%;
 }
@@ -107,17 +171,22 @@ footer {
 }
 
 .apply-form {
-    width: 50%;
+    width: 519px;
     background-color: white;
     border: 5px solid white;
-    box-shadow: 5px 8px 10px grey;
-    border-radius: 10px;
+    box-shadow: 10px 8px 10px grey;
+    border-radius: 18px;
 }
 
 .footer-container {
     display: flex;
 }
 
+.socialmedia-icon {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .apply-form a {
-    color: red;
+    color: #ff8480;
 }
