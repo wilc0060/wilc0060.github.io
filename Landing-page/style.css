@@ -1,32 +1,84 @@
 /* For Mobile */
-@media only screen and (min-width:313px) {
+@media only screen and (min-width:320px) {
     .logo-image {
         width: 50%;
+        margin: 25px;
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 100px;
         color: #333133;
         font-family: 'Montserrat';
+        padding: 10px 28px;
+    }
+
+    .p1 {
+        font-size: 40px;
+        padding: 10px 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .p2 {
+        font-size: 22px;
+        padding: 6px 20px;
+    }
+
+    .p3 {
+        font-size: 30px;
+    }
+
+    .p4 {
+        font-size: 30px;
+        padding: 12px 28px;
     }
 
     h2 {
         font-family: 'Montserrat';
-        font-size: 30px;
+        font-size: 60px;
         color: #333133;
-        text-align: center
+        padding: 4px 12px;
     }
 
     h3 {
-        font-size: 19px;
-        font-family: monospace;
+        font-size: 40px;
+        font-family: 'Montserrat';
         color: #333133;
         padding: 5px 22px;
     }
 
-    p {
-        font-size: 19px;
-        padding: 0px 22px;
+    .label {
+        font-size: 30px;
+    }
+
+    input[type=text] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    input[type=email] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+
+    }
+
+    #phone {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
     }
 
     .apply-form {
@@ -34,21 +86,23 @@
         border: 5px solid white;
         box-shadow: 10px 8px 10px grey;
         border-radius: 18px;
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        margin: 90px;
     }
 
     .drive {
         background-color: #57eeab;
         border-radius: 8px;
-        font-size: 30px;
-        padding: 3px 120px;
-        font-family: 'Montserrat';
-        margin: 8px;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 12px;
+        padding: 12px 30px;
     }
 
     footer {
         background-color: #fffd8c;
-        width: auto;
-        text-align: left;
     }
 
     .socialmedia-icon {
@@ -66,28 +120,33 @@
     .calc {
         background-color: #ff8480;
         color: white;
-        border-radius: 8px;
+        border-radius: 20px;
         font-size: 40px;
         font-family: 'Montserrat';
-        padding: 2px 35px;
+        padding: 10px 160px;
+        margin: 25px;
+
     }
 
     input[id=Hours] {
-        padding: 12px 20px;
-        display: inline-block;
+        margin: 0px 20px;
+        padding: 10px 4px;
         border: 2px solid#cccf;
         border-radius: 8px;
         box-sizing: border-box;
         max-width: 80px;
+        font-size: 14px;
     }
 
     input[id=City] {
-        padding: 12px 20px;
-        display: inline-block;
+        padding: 8px 10px;
         border: 1px solid#ccc;
         border-radius: 8px;
         box-sizing: border-box;
+        font-size: 20px;
+        margin: 0px 10px;
         max-width: 200px;
+
     }
 
     .footer-container {
@@ -105,30 +164,20 @@
 }
 
 /* For Tablet Mockup */
-@media only screen and (min-width:735px) {
+@media only screen and (min-width:768px) {
     .logo-image {
-        width: 80px;
+        width: 100px;
     }
 
     h1 {
         font-size: 90px;
-        color: #333133;
-        font-family: 'Montserrat';
     }
 
     h2 {
-        font-family: 'Montserrat';
         font-size: 50px;
-        color: #333133;
     }
 
     h3 {
-        font-size: 30px;
-        font-family: monospace;
-        color: #333133;
-    }
-
-    p {
         font-size: 30px;
     }
 
@@ -141,58 +190,50 @@
         margin: 100px;
     }
 
+    .drive {
+        background-color: #57eeab;
+        border-radius: 8px;
+        font-size: 30px;
+        padding: 3px 120px;
+        font-family: 'Montserrat';
+        margin: 8px;
+    }
+
     input[id=Hours] {
         padding: 12px 20px;
-        display: inline-block;
-        border: 2px solid#cccf;
-        border-radius: 8px;
-        box-sizing: border-box;
         max-width: 80px;
     }
 
     input[id=City] {
         padding: 12px 20px;
-        display: inline-block;
-        border: 1px solid#ccc;
-        border-radius: 8px;
-        box-sizing: border-box;
         max-width: 200px;
     }
 
     input[type=text] {
-        width: 90%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        box-sizing: border-box;
         font-size: 30px;
     }
 
     input[type=email] {
-        width: 90%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        box-sizing: border-box;
         font-size: 30px;
-
     }
 
     #phone {
-        width: 90%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        box-sizing: border-box;
         font-size: 30px;
     }
-    .terms{
-        font-size: 30px;
+
+    .p3 {
+        font-size: 25px;
+    } 
+    .calc{
+        margin:1px;
+    }
+}
+
+/* For Desktop Mockup */
+@media only screen and (min-width:958px) {
+    .socialmedia-icon{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
     }
 }
