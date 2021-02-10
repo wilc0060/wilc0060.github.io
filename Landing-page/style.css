@@ -95,7 +95,7 @@
         margin: 90px;
         margin-bottom: 0;
     }
-
+/* I choose this element so they can match up the mockup  */
     .drive {
         background-color: #57eeab;
         border-radius: 10px;
@@ -104,23 +104,23 @@
         padding:2px 10px;
         width:100%;
     }
-
+/* adding the color to match up the mockup */
     footer {
         background-color: #fffd8c;
     }
-
+/* Given the code a display of flex so the social media icon can have evenly space */
     .socialmedia-icon {
         display: flex;
         justify-content: space-evenly;
     }
-
+/* Increaseing the size of the checkbox to match the mockup */
     #terms {
         height: 25px;
         width: 25px;
         background-color: #eee;
         border-radius: 50%;
     }
-
+/* The border-radius it's to increase the curve of the box and the elements match up the mockup */
     .calc {
         background-color: #ff8480;
         color: white;
@@ -151,12 +151,12 @@
         width: 100%;
 
     }
-
+/* I used display flex to make the footer element wrap */
     .footer-container {
         display: flex;
         flex-wrap: wrap;
     }
-
+/* Used the color to match the mockup */
     .apply-form a {
         color: #ff8480;
     }
@@ -245,7 +245,7 @@
         flex-direction: row-reverse;
         justify-content: end;
     }
-
+/* moving the applyform to the right to match the mockup */
     .apply-form {
         margin-left: auto;
     }
