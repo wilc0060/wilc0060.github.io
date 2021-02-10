@@ -21,6 +21,7 @@
     .p2 {
         font-size: 22px;
         padding: 6px 20px;
+        margin: auto;
     }
 
     .p3 {
@@ -29,7 +30,8 @@
 
     .p4 {
         font-size: 30px;
-        padding: 12px 28px;
+        padding: 1px 20px;
+        margin-bottom: 0;
     }
 
     h2 {
@@ -44,6 +46,7 @@
         font-family: 'Montserrat';
         color: #333133;
         padding: 5px 22px;
+        margin-top: 0;
     }
 
     .label {
@@ -90,6 +93,7 @@
         display: flex;
         flex-direction: column;
         margin: 90px;
+        margin-bottom: 0;
     }
 
     .drive {
@@ -123,9 +127,9 @@
         border-radius: 20px;
         font-size: 40px;
         font-family: 'Montserrat';
-        padding: 10px 160px;
+        padding: 2px 10px;
         margin: 25px;
-
+        width: 100%;
     }
 
     input[id=Hours] {
@@ -188,6 +192,7 @@
         border-radius: 18px;
         max-width: 560px;
         margin: 100px;
+        margin-bottom: 0;
     }
 
     .drive {
@@ -200,12 +205,11 @@
     }
 
     input[id=Hours] {
-        padding: 12px 20px;
         max-width: 80px;
+        margin-top: 0;
     }
 
     input[id=City] {
-        padding: 12px 20px;
         max-width: 200px;
     }
 
@@ -223,17 +227,28 @@
 
     .p3 {
         font-size: 25px;
-    } 
-    .calc{
-        margin:1px;
+    }
+
+    .calc {
+        padding: 2px 12px;
+        margin-top: 5px;
+        width: 30%;
+    }
+
+    .footer-container div {
+        margin-top: 15px;
     }
 }
 
 /* For Desktop Mockup */
 @media only screen and (min-width:958px) {
-    .socialmedia-icon{
+    .socialmedia-icon {
         display: flex;
         flex-direction: row-reverse;
         justify-content: end;
+    }
+
+    .apply-form {
+        margin-left: auto;
     }
 }
