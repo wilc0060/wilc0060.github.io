@@ -5,6 +5,10 @@
         margin: 25px;
     }
 
+    #main-content{
+        background-image: url(./image/bg-image/scooter.svg);
+    }
+
     h1 {
         font-size: 80px;
         color: #333133;
