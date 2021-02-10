@@ -98,11 +98,11 @@
 
     .drive {
         background-color: #57eeab;
-        border-radius: 8px;
+        border-radius: 10px;
         font-size: 40px;
-        font-family: 'Montserrat', sans-serif;
-        margin: 12px;
-        padding: 12px 30px;
+        font-family: 'Montserrat';
+        padding:2px 10px;
+        width:100%;
     }
 
     footer {
@@ -129,7 +129,7 @@
         font-family: 'Montserrat';
         padding: 2px 10px;
         margin: 25px;
-        width: 100%;
+        width: 550px;
     }
 
     input[id=Hours] {
@@ -148,8 +148,7 @@
         border-radius: 8px;
         box-sizing: border-box;
         font-size: 20px;
-        margin: 0px 10px;
-        max-width: 200px;
+        width: 100%;
 
     }
 
@@ -201,16 +200,15 @@
         font-size: 30px;
         padding: 3px 120px;
         font-family: 'Montserrat';
-        margin: 8px;
     }
 
     input[id=Hours] {
-        max-width: 80px;
         margin-top: 0;
+        width: 70%;
     }
 
     input[id=City] {
-        max-width: 200px;
+        width: 100%;
     }
 
     input[type=text] {
@@ -230,7 +228,7 @@
     }
 
     .calc {
-        padding: 2px 12px;
+        padding: 2px 10px;
         margin-top: 5px;
         width: 30%;
     }
