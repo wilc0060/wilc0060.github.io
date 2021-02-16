@@ -58,6 +58,23 @@
     }
 
     .girl {
-        width: 20%;  
+        width: 60%;  
+        display: flex;
+        flex-direction: column;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grad{
+        width: 100%;
+    }
+    h2{
+        color: #3c3b3a;
+        font-size: 40px;
+    }
+    h3{
+        color:#26a682 ;
+        font-size: 30px;
+        font-family:'Raleway';
     }
 }
