@@ -1,0 +1,40 @@
+/* For Mobile */
+@media only screen and (min-width:320px) {
+    #header {
+        background-color: #3c3b3a;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #f2f2f2;
+    }
+
+    /* Removing underline from ul */
+    nav ul {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav ul a {
+        color: #f2f2f2;
+    }
+
+    .logo-image {
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .construction {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
