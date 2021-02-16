@@ -58,23 +58,71 @@
     }
 
     .girl {
-        width: 60%;  
+        width: 60%;
         display: flex;
         flex-direction: column;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    .grad{
+
+    #simon {
+        width: 50%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        background-color: #3c3b3a;
+    }
+
+    .pres {
+        color: #f2f2f2;
+        text-align: center;
+    }
+
+    .p1 {
+        color: #f2f2f2;
+    }
+
+    .learn {
+        background-color: #26a682;
+        color: #f2f2f2;
+        border-radius: 20px;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        width: 35%;
+    }
+
+    .grad {
         width: 100%;
     }
-    h2{
+
+    h2 {
         color: #3c3b3a;
         font-size: 40px;
     }
-    h3{
-        color:#26a682 ;
+
+    h3 {
+        color: #26a682;
         font-size: 30px;
-        font-family:'Raleway';
+        font-family: 'Raleway';
+    }
+
+    #bar{
+        width: 100%;
+    }
+
+    #More{
+        background-color: #26a682;
+        color: #f2f2f2;
+        border-radius: 30px;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        width: 35%;  
     }
 }
