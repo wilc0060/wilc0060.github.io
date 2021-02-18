@@ -47,6 +47,12 @@
     }
 
     h2 {
+        color: #f2f2f2;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h3 {
         color: #3c3b3a;
         font-size: 40px;
         padding: 10px 28px
@@ -55,15 +61,62 @@
     p {
         font-size: 20px;
         padding: 10px 28px
-    } 
+    }
+
+    input[type=text] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    input[type=email] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+
+    #Message {
+        width: 90%;
+        height: 100px;
+        padding: 12px 20px;
+        margin: 10px 21;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
 
     .button {
+        font-family: 'Raleway', sans-serif;
         background-color: #3c3b3a;
         color: #f2f2f2;
         border-radius: 20px;
         border: none;
-        font-size: 40px;
-        width: 50%;
+        box-shadow: 10px 8px 10px #3c3b3a;
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .apply-form {
+        background-color: #26a682;
+        border: none;
+        box-shadow: 10px 8px 10px grey;
+        border-radius: 18px;
+        width: 290px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #footer-container {
