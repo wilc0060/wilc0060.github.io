@@ -31,10 +31,75 @@
         margin-right: auto;
     }
 
+    h1 {
+        font-size: 50px;
+        font-family: 'Raleway', sans-serif;
+        color: #3c3b3a;
+        font-weight: bolder;
+        padding: 10px 28px
+    }
+
+    h2 {
+        color: #3c3b3a;
+        font-size: 40px;
+    }
+
+    h3 {
+        color: #26a682;
+        font-size: 40px;
+    }
+
+
+    p {
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 28px
+    }
+
     .construction {
         width: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .bar {
+        width: 0;
+    }
+
+    .bowling {
+        width: 0;
+    }
+
+    .gym {
+        width: 0;
+    }
+
+    .rock {
+        width: 0;
+    }
+
+    .gry {
+        background-color: #f2f2f2;
+    }
+
+    .grey {
+        background-color: #f2f2f2;
+    }
+    .back{
+        background-color: #f2f2f2;
+    }
+
+    .container {
+        background-color: #3c3b3a;
+    }
+
+    #footer-container {
+        background-color: #3c3b3a;
+    }
+
+    .footer {
+        color: #f2f2f2;
+        text-align: center;
     }
 }

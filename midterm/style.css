@@ -69,10 +69,9 @@
     }
 
     .icon {
+        font-size: 30px;
         display: flex;
         flex-direction: row;
-        font-size: 40px;
-        justify-content: space-evenly;
     }
 
     .start {
