@@ -4,25 +4,24 @@
         background-color: #3c3b3a;
     }
 
-    a:link {
-        text-decoration: none;
-        color: #f2f2f2;
-    }
 
     /* Removing underline from ul */
-    nav ul {
+    nav li {
         list-style: none;
         font-size: 20px;
         text-align: center;
         font-family: 'Raleway', sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
-    nav ul a {
+    nav li a {
         color: #f2f2f2;
+        text-decoration: none;
     }
+
+    .topnav li {
+        float: none;
+    }
+
 
     .logo-image {
         width: 20%;
@@ -38,26 +37,30 @@
         font-family: 'Raleway', sans-serif;
         color: #3c3b3a;
         font-weight: bolder;
-        padding: 10px 28px
+        padding: 10px 28px;
+        margin: 0;
     }
 
 
     h2 {
         color: #3c3b3a;
         font-size: 40px;
-        padding: 10px 28px
+        padding: 10px 28px;
+        margin: 0;
     }
 
     h3 {
         color: #26a682;
         font-size: 25px;
-        padding: 10px 28px
+        padding: 10px 28px;
+        margin: 0;
     }
 
     p {
         font-size: 30px;
         font-family: 'Raleway', sans-serif;
-        padding: 10px 28px
+        padding: 10px 28px;
+        margin: 0;
     }
 
     .icon {
@@ -81,6 +84,9 @@
         font-weight: bold;
         padding: 2px 8px;
         width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -121,12 +127,15 @@
     .learn {
         background-color: #26a682;
         color: #f2f2f2;
-        border-radius: 20px;
+        border-radius: 30px;
+        box-shadow: 8px 10px 5px #f2f2f2;
         border: none;
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
         font-weight: bold;
         width: 40%;
+        display: block;
+        margin-left: auto;
     }
 
 
@@ -141,5 +150,44 @@
     .footer {
         color: #f2f2f2;
         text-align: center;
+    }
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    .logo-image {
+        width: 20%;
+        margin: 0;
+    }
+
+    .topnav {
+        text-align: right;
+    }
+
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        display: inline;
+    }
+
+    .icon {
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #scroll {
+        font-size: 30px;
+        color: #26a682;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #simon {
+        width: 30%;
+        margin: 0;
     }
 }
