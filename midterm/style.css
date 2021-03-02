@@ -4,12 +4,14 @@
         background-color: #3c3b3a;
     }
 
+    body {
+        margin: 0;
+    }
 
     /* Removing underline from ul */
     nav li {
         list-style: none;
         font-size: 20px;
-        text-align: center;
         font-family: 'Raleway', sans-serif;
     }
 
@@ -22,6 +24,11 @@
         float: none;
     }
 
+    .topnav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .logo-image {
         width: 20%;
@@ -132,10 +139,12 @@
         border: none;
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
+        padding: 10px 25px;
         font-weight: bold;
         width: 40%;
         display: block;
         margin-left: auto;
+        margin-bottom: 20px;
     }
 
 
@@ -155,13 +164,13 @@
 
 /* * For Tablet Mockup */
 @media only screen and (min-width:768px) {
-    .logo-image {
-        width: 20%;
-        margin: 0;
+    #header {
+        display: flex;
     }
 
-    .topnav {
-        text-align: right;
+    .logo-image {
+        width: 10%;
+        margin: 12px;
     }
 
     nav li {
@@ -170,6 +179,16 @@
         text-align: center;
         font-family: 'Raleway', sans-serif;
         display: inline;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    nav li a {
+        padding: 14px 16px;
     }
 
     .icon {
@@ -186,8 +205,48 @@
         padding: 0;
     }
 
+    .pres {
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        ;
+    }
+
     #simon {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .grad {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+    }
+
+    #bar {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .sap {
+        display: flex;
+        flex-direction: column;
         width: 30%;
-        margin: 0;
+    }
+
+    .p1 {
+        width: 70%;
+    }
+
+    .start {
+        width: 40%;
+    }
+
+    .learn {
+        width: 40%;
     }
 }

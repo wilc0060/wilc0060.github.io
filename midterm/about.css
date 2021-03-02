@@ -1,12 +1,28 @@
 /* For Mobile */
 @media only screen and (min-width:320px) {
+    body {
+        margin: 0;
+    }
+
     #header {
         background-color: #3c3b3a;
     }
 
-    a:link {
-        text-decoration: none;
+
+    .topnav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li a {
         color: #f2f2f2;
+        text-decoration: none;
+    }
+
+    .topnav li {
+        float: none;
+        list-style: none;
     }
 
     /* Removing underline from ul */
@@ -15,13 +31,6 @@
         font-size: 20px;
         text-align: center;
         font-family: 'Raleway', sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    nav ul a {
-        color: #f2f2f2;
     }
 
     .logo-image {
@@ -56,11 +65,13 @@
     p {
         font-size: 20px;
         padding: 10px 28px;
+        margin: 0;
     }
 
     #keep {
         font-size: 25px;
         text-align: center;
+        margin: 0;
     }
 
     .construction {
@@ -73,20 +84,18 @@
     .about {
         /* background-image: url(./mtm6201-midterm-master-files/images/about.jpg);
         background-color: #26a682; */
-        background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(23, 97, 56, 0.45), 
-      rgba(1, 41, 19, 0.815)
-    ),
-    /* bottom, image */
-    url(./mtm6201-midterm-master-files/images/about.jpg);
+        background:
+            /* top, transparent red, faked with gradient */
+            linear-gradient(rgba(23, 97, 56, 0.45),
+                rgba(1, 41, 19, 0.815)),
+            /* bottom, image */
+            url(./mtm6201-midterm-master-files/images/about.jpg);
         background-repeat: no-repeat;
-        height:150px;
-        width:100%;
-        display:flex;
-        justify-content:center;
-        align-items:center;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .bar {
@@ -120,19 +129,56 @@
         color: #f2f2f2;
         font-size: 25px;
         font-weight: bold;
-        width:40%;
+        width: 40%;
         padding: 8px 20px;
     }
-    .sponsors{
+
+    .sponsors {
         width: 30%;
     }
 
     #footer-container {
         background-color: #3c3b3a;
+        margin: 0;
     }
 
     .footer {
         color: #f2f2f2;
         text-align: center;
+        margin: 0;
+    }
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    #header {
+        display: flex;
+    }
+
+    .logo-image {
+        width: 10%;
+        margin: 12px;
+    }
+
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        display: inline;
+    }
+
+    nav li a {
+        padding: 14px 16px;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .bar {
+        width: 50%;
     }
 }
