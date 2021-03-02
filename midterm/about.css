@@ -61,6 +61,10 @@
 
     }
 
+    h4 {
+        margin: 0;
+    }
+
 
     p {
         font-size: 20px;
@@ -130,17 +134,21 @@
         font-size: 25px;
         font-weight: bold;
         width: 40%;
-        padding: 8px 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .sponsors {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        margin: 0;
     }
 
     .spons {
-        width: 30%;
+        width: 50%;
         margin: 0;
     }
 
@@ -186,6 +194,51 @@
     }
 
     .bar {
-        width: 50%;
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-left: 20px;
+
+    }
+
+    .bowling {
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .gym {
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+
+    .rock {
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    #br {
+        display: flex;
+    }
+
+    #comp {
+        display: flex;
+    }
+
+    #g {
+        display: flex;
+    }
+
+    #rc {
+        display: flex;
+    }
+
+    #subscribe {
+        display: flex;
     }
 }
