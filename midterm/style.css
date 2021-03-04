@@ -77,6 +77,13 @@
         text-align: center;
     }
 
+    .icon-text {
+        color: #26a682;
+        font-size: 25px;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
     #scroll {
         font-size: 0;
     }
@@ -249,5 +256,47 @@
     .learn {
         width: 40%;
         margin-right: 20px;
+    }
+}
+
+/* For Desktop Mockup */
+@media only screen and (min-width:958px) {
+    p {
+        font-size: 15px;
+    }
+
+    #bf {
+        display: flex;
+    }
+
+    .icon-text {
+        font-size: 15px;
+    }
+
+    .girl {
+        margin-top: 40px;
+        width: 400px;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    .start {
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .learn {
+        width: 50%;
+    }
+
+    .grad {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .gr {
+        display: flex;
+        background-color: #f2f2f2;
     }
 }

@@ -241,4 +241,23 @@
     #subscribe {
         display: flex;
     }
+
+    .spons {
+        width: 20%;
+    }
+}
+
+/* For Desktop Mockup */
+@media only screen and (min-width:958px) {
+    #con {
+        display: flex;
+    }
+
+    .construction {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sponsors{
+        flex-direction: row;
+    }
 }
