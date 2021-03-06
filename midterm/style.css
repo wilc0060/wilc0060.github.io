@@ -299,4 +299,33 @@
         display: flex;
         background-color: #f2f2f2;
     }
+
+    .sap {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #simon {
+        width: 50%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .br {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #bar {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    #w {
+        width: 50%;
+    }
 }

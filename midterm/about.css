@@ -96,10 +96,26 @@
             url(./mtm6201-midterm-master-files/images/about.jpg);
         background-repeat: no-repeat;
         height: 150px;
-        width: 100%;
+        width: 100%P;
+        align-items: center;
         display: flex;
         justify-content: center;
+        object-fit: cover;
+    }
+
+    .service {
+        background:
+            /* top, transparent red, faked with gradient */
+            linear-gradient(rgba(23, 97, 56, 0.45),
+                rgba(1, 41, 19, 0.815)),
+            /* bottom, image */
+            url(./mtm6201-midterm-master-files/images/services.jpg);
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 100%;
         align-items: center;
+        display: flex;
+        justify-content: center;
     }
 
     .bar {
@@ -257,7 +273,46 @@
         width: 100%;
         margin-top: 20px;
     }
-    .sponsors{
+
+    .sponsors {
         flex-direction: row;
+    }
+
+    .grey {
+        display: flex;
+    }
+
+    .sub {
+        width: 15%;
+        margin-left: -300px;
+    }
+
+    #keep {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bar {
+        width: 400px;
+        height: 200px;
+        margin-top: 40px;
+    }
+
+    .bowling {
+        width: 400px;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .gym {
+        width: 400px;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .rock {
+        width: 400px;
+        height: 200px;
+        margin-top: 40px;
     }
 }
