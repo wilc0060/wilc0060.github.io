@@ -25,6 +25,14 @@
         list-style: none;
     }
 
+    .topnav ul {
+        display: flex;
+    }
+
+    .topnav div:hover {
+        transform: scale(1.5);
+    }
+
     /* Removing underline from ul */
     nav ul {
         list-style: none;
@@ -192,6 +200,7 @@
         margin-left: auto;
     }
 
+
     nav ul a {
         padding: 14px 16px;
     }
@@ -237,5 +246,9 @@
         width: 50%;
         margin-top: 30px;
         padding: 10px 22px;
+    }
+
+    .map {
+        height: 280px;
     }
 }
