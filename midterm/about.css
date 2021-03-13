@@ -106,11 +106,12 @@
             url(./mtm6201-midterm-master-files/images/about.jpg);
         background-repeat: no-repeat;
         height: 150px;
-        width: 100%P;
+        width: 100%;
         align-items: center;
         display: flex;
         justify-content: center;
         object-fit: cover;
+        background-size: cover;
     }
 
     .service {
@@ -330,5 +331,18 @@
         width: 400px;
         height: 200px;
         margin-top: 40px;
+    }
+    h2{
+        width: 87%;
+    }
+
+    .sponsors {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .spons {
+        width: 10%;
+        margin-bottom: 15px;
     }
 }
