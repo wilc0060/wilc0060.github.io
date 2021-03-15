@@ -29,7 +29,7 @@
         display: flex;
     }
 
-    .topnav div:hover {
+    .topnav li:hover {
         transform: scale(1.5);
     }
 
@@ -162,6 +162,7 @@
         width: 100%;
     }
 
+
     #footer-container {
         background-color: #3c3b3a;
         margin: 0;
@@ -172,6 +173,12 @@
         text-align: center;
         margin: 0;
     }
+
+    .arrow {
+        float: right;
+        width: 2%;
+    }
+
 }
 
 /* * For Tablet Mockup */

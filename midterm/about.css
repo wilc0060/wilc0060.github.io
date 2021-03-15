@@ -31,8 +31,9 @@
         align-items: center;
     }
 
-    .topnav div:hover {
+    .topnav li:hover {
         transform: scale(1.5);
+        color: #26a682;
     }
 
     /* Removing underline from ul */
@@ -189,6 +190,12 @@
         text-align: center;
         margin: 0;
     }
+
+    .arrow {
+        float: right;
+        width: 2%;
+    }
+
 }
 
 /* * For Tablet Mockup */
@@ -332,7 +339,8 @@
         height: 200px;
         margin-top: 40px;
     }
-    h2{
+
+    h2 {
         width: 87%;
     }
 
