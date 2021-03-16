@@ -99,35 +99,37 @@
     .about {
         /* background-image: url(./mtm6201-midterm-master-files/images/about.jpg);
         background-color: #26a682; */
-        background:
+        background-image:
             /* top, transparent red, faked with gradient */
-            linear-gradient(rgba(23, 97, 56, 0.45),
-                rgba(1, 41, 19, 0.815)),
+            linear-gradient(rgba(4, 88, 65, 0.45),
+                rgba(2, 66, 48, 0.815)),
             /* bottom, image */
             url(./mtm6201-midterm-master-files/images/about.jpg);
         background-repeat: no-repeat;
-        height: 150px;
+        height: 200px;
         width: 100%;
         align-items: center;
         display: flex;
         justify-content: center;
-        object-fit: cover;
         background-size: cover;
+        background-position: center;
     }
 
     .service {
-        background:
+        background-image:
             /* top, transparent red, faked with gradient */
-            linear-gradient(rgba(23, 97, 56, 0.45),
-                rgba(1, 41, 19, 0.815)),
+            linear-gradient(rgba(3, 85, 62, 0.45),
+                rgba(2, 70, 50, 0.815)),
             /* bottom, image */
             url(./mtm6201-midterm-master-files/images/services.jpg);
         background-repeat: no-repeat;
-        height: 150px;
+        height: 200px;
         width: 100%;
         align-items: center;
         display: flex;
         justify-content: center;
+        background-size: cover;
+        background-position: center;
     }
 
     .bar {
@@ -156,7 +158,7 @@
 
     .sub {
         background-color: #26a682;
-        border-radius: 10px;
+        border-radius: 20px;
         border: none;
         color: #f2f2f2;
         font-size: 25px;
@@ -194,8 +196,20 @@
     .arrow {
         float: right;
         width: 2%;
+        animation-name: arrow;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
     }
 
+    @keyframes arrow {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(0.2);
+        }
+    }
 }
 
 /* * For Tablet Mockup */
@@ -280,6 +294,7 @@
 
     #subscribe {
         display: flex;
+        border-radius: 15%;
     }
 
     .spons {
