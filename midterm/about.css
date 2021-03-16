@@ -32,8 +32,8 @@
     }
 
     .topnav li:hover {
-        transform: scale(1.5);
-        color: #26a682;
+        transform: scale(1.4);
+        text-decoration: underline;
     }
 
     /* Removing underline from ul */
