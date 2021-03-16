@@ -28,9 +28,10 @@
     .topnav ul {
         display: flex;
     }
-
+/* adding animation growth and underline to nav links */
     .topnav li:hover {
-        transform: scale(1.5);
+        transform: scale(1.4);
+        text-decoration: underline;
     }
 
     /* Removing underline from ul */
