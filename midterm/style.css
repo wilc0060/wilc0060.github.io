@@ -34,6 +34,7 @@
     .topnav li:hover {
         transform: scale(1.4);
         text-decoration: underline;
+        color: #26a682;
     }
 
     .logo-image {
@@ -120,7 +121,7 @@
         }
 
         to {
-            transform: scale(0.2);
+            transform: scale(0.5);
         }
     }
 

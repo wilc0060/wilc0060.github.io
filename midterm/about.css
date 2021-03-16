@@ -30,6 +30,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     /* adding animation growth and underline to nav links */
     .topnav li:hover {
         transform: scale(1.4);
@@ -131,7 +132,8 @@
         background-size: cover;
         background-position: center;
     }
-/* all image with width 0 don't show on mobile that's why they have now width */
+
+    /* all image with width 0 don't show on mobile that's why they have now width */
     .bar {
         width: 0;
     }
@@ -206,9 +208,11 @@
             transform: scale(1);
         }
 
+
         to {
-            transform: scale(0.2);
+            transform: scale(0.5);
         }
+        
     }
 }
 
