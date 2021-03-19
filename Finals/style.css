@@ -1,0 +1,166 @@
+/* For Mobile */
+@media only screen and (min-width:320px) {
+    .header {
+        background-color: #88A7B9;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    main {
+        background-color: #DCDBDB;
+    }
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Removing underline from ul */
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    nav li a {
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+
+    #nav li {
+        float: none;
+    }
+
+    #nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .me {
+        max-width: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 22px;
+        color: #ffffff;
+        margin: 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+        padding: 10px 22px;
+        margin: 0;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        padding: 10px 22px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .hire {
+        color: white;
+        background-color: black;
+        font-size: 15px;
+        border-radius: 30px;
+        box-shadow: 8px 10px 5px #8f8f8f;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        padding: 10px 25px;
+        font-weight: bold;
+        width: 40%;
+        display: block;
+        margin: 10px 5px 5px 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .hire:hover {
+        color: red;
+        background-color: #f2f2f2;
+    }
+
+    .work {
+        color: red;
+        background-color: black;
+        font-size: 15px;
+        border-radius: 30px;
+        box-shadow: 8px 10px 5px #8f8f8f;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        padding: 10px 25px;
+        font-weight: bold;
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .work:hover {
+        color: white;
+        background-color: rgb(199, 13, 13);
+        transform: scale(1.2);
+    }
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    .header {
+        display: flex;
+    }
+
+    .logo {
+        width: 20%;
+        padding: 12px;
+    }
+
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        display: inline;
+    }
+
+    #nav {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    #nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    nav li a {
+        padding: 14px 16px;
+    }
+
+    .me {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
