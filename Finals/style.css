@@ -3,11 +3,16 @@
 
     /* Homepage */
     .header {
-        background-color: #88A7B9;
+        background-color: #c2d9f7;
     }
 
     body {
         margin: 0;
+    }
+
+    main {
+        margin: 0;
+        height: 80vh;
     }
 
     .logo {
@@ -62,14 +67,70 @@
         color: black;
     }
 
+    .landingpage {
+        background-image: url(./images/images.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        height: inherit;
+    }
+
     .me {
         width: 0;
+    }
+
+    /* About */
+    .banner {
+        background-image: url(./images/images\ \(1\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .profile-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+        display: none;
+    }
+
+    .profile-button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
     }
 
     /* Portfilio */
     .portfilo {
         max-width: 100%;
         height: auto;
+    }
+
+    .portfolio-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
     }
 
     footer {
@@ -79,13 +140,29 @@
     }
 
     /* Service */
-    .container {
-        background-color: #647077;
-    }
 
     .service {
         max-width: 100%;
         height: auto;
+    }
+
+    h3 {
+        color: #020202;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 60%;
+        height: 400px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    .card-container {
+        padding: 2px 16px;
     }
 
     /* Contact */
