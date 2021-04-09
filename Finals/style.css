@@ -107,7 +107,7 @@
     }
 
     .work {
-        background-color: white;
+        background-color: rgb(129, 126, 126);
         color: black;
         border: 2px solid #e7e7e7;
         margin: 20px;
@@ -120,7 +120,7 @@
     }
 
     .work:hover {
-        background-color: #555555;
+        background-color: #070707;
         color: white;
     }
 
@@ -196,6 +196,16 @@
     .service {
         width: 100%;
         height: auto;
+    }
+
+    .service-button {
+        color: #f2f2f2;
+        background-color: #666;
+        width: 60%;
+        border-radius: 10px;
+        border: none;
+        padding:10px 20px;
+        margin: 10px;
     }
 
     h3 {
@@ -381,6 +391,10 @@
         width: 50%;
     }
 
+    .service-button {
+        width: 70%;
+        margin: 10px;
+    }
 }
 
 @media only screen and (min-width:958px) {
