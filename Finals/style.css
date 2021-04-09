@@ -191,6 +191,19 @@
         padding: 0;
     }
 
+    #footericon {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #footer-p {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
     /* Service */
 
     .service {
@@ -204,7 +217,7 @@
         width: 60%;
         border-radius: 10px;
         border: none;
-        padding:10px 20px;
+        padding: 10px 20px;
         margin: 10px;
     }
 
@@ -394,6 +407,14 @@
     .service-button {
         width: 70%;
         margin: 10px;
+    }
+
+    #footericon {
+        text-align: end;
+    }
+
+    #footer-p {
+        text-align: start;
     }
 }
 
