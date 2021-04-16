@@ -103,7 +103,7 @@
     }
 
     .hire:active {
-        box-shadow: 20px #666;
+        box-shadow: #666;
         transform: translateY(4px);
     }
 
@@ -312,7 +312,7 @@
         box-shadow: 10px 8px 10px grey;
         border-radius: 18px;
         width: 290px;
-        height: 550px;
+        height: 590px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -424,38 +424,40 @@
         width: 70%;
         margin: 10px;
     }
+    /* Contact Page */
+    #hire-me{
+        height: 600px;
+    }
+}
 
 
-    @media only screen and (min-width:958px) {
+@media only screen and (min-width:958px) {
 
-        /* HOME PAGE */
-        #container {
-            display: flex;
-        }
+    /* HOME PAGE */
+    #container {
+        display: flex;
+    }
 
-        .container-text {
-            width: 50%;
-        }
+    .container-text {
+        width: 50%;
+    }
 
-        .container-image {
-            width: 50%;
-            margin-top: 20px;
-        }
+    .container-image {
+        width: 50%;
+        margin-top: 20px;
+    }
 
-        /* ABOUT PAGE */
-        .about-wrap {
-            display: flex;
-            margin-top: 20px;
-        }
+    /* ABOUT PAGE */
+    .about-wrap {
+        display: flex;
+        margin-top: 20px;
+    }
 
-        #footericon {
-            text-align: end;
-        }
-
-        footer {
-
-            text-align: start;
-        }
+    .foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
     }
 
     /* Portfoli Page */
